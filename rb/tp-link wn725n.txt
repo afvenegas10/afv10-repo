@@ -1,0 +1,26 @@
+http://tech.enekochan.com/es/2014/02/15/tp-link-tl-wn725n-version-2-en-raspbian-2014-01-07-wheezy-raspbian-con-kernel-3-10-25/
+
+uname -r
+wget http://www.mendrugox.net/wp-content/uploads/downloads/2014/01/8188eu_31024_614.zip
+unzip 8188eu_31024_614.zip
+sudo mv 8188eu.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless
+sudo chown root:root /lib/modules/`uname -r`/kernel/drivers/net/wireless/8188eu.ko
+sudo mv rtl8188eufw.bin /lib/firmware/rtlwifi/
+sudo chown root:root /lib/firmware/rtlwifi/rtl8188eufw.bin
+sudo depmod -a
+sudo modprobe 8188eu
+sudo vi interfaces
+----------------
+auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+auto wlan0
+
+iface wlan0 inet dhcp
+        wpa-ssid "freyja"
+        wpa-psk "90gato66"
+----------------
+sudo reboot
