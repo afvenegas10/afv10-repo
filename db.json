@@ -1,35 +1,11 @@
-{"data":[
-{"Código de visita": 123,
+{
+ "data":[
+   {
+   "Código de visita": 123,   
+   }, 
 
-"Análisis de la solicitud":
- {
-   "Inicio": "02/05/2017",
-   "Fin": "03/06/2018"
- },
-"Ajustes de la solicitud":
- {
-   "Inicio": "02/05/2012",
-   "Fin": "03/06/2013"
- },
- "Carga anunciada":
-{"Importación":100,
-"Exportación":200}
-}, 
-{"Código de visita": 321,
-
-"Análisis de la solicitud":
- {
-   "Inicio": "01/07/2011",
-   "Fin": "06/02/2012"
- },
-"Ajustes de la solicitud":
- {
-   "Inicio": "01/01/2017",
-   "Fin": "03/06/2017"
- },
- "Carga anunciada":
-{"Importación":10,
-"Exportación":50}
-}, 
-]
+  {
+   "Código de visita": 321,
+  }, 
+ ]
 }
