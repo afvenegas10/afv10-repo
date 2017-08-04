@@ -1,4 +1,5 @@
-[
+{
+  "data": [
          {
            "FIELD1": "Apples",
            "Jane": 3,
@@ -25,3 +26,6 @@
            "John": null
          }
         ]  
+
+}
+
