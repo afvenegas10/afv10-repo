@@ -1,7 +1,11 @@
 {
-  "casos": [
+  "posts": [
     {
-      "id": 1,
+      "id": 123,
+      "title": "hello"
+    },
+    {
+      "id": 321,
       "title": "hello"
     }
   ],
