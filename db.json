@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  data: [
+         {
+           "FIELD1": "Apples",
+           "Jane": 3,
+           "John": 4
+         },
+         {
+           "FIELD1": "Pears",
+           "Jane": 2,
+           "John": 0
+         },
+         {
+           "FIELD1": "Plums",
+           "Jane": 5,
+           "John": 11
+         },
+         {
+           "FIELD1": "Bananas",
+           "Jane": 1,
+           "John": 1
+         },
+         {
+           "FIELD1": "Oranges",
+           "Jane": 2,
+           "John": null
+         }
+        ]  
 }
