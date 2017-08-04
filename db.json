@@ -1,11 +1,8 @@
 {
- "data":[
-   {
-   "Código de visita": 123,   
-   }, 
-
-  {
-   "Código de visita": 321,
-  }, 
- ]
+  "data": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ]
 }
